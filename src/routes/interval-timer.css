@@ -1,4 +1,4 @@
-#interval-timer {
+#interval-timer-container {
     background: #1133A4;
         background: -moz-linear-gradient(top, #1133A4 0%, #27C7FF 50%, #1E63B9 100%);
         background: -webkit-linear-gradient(top, #1133A4 0%, #27C7FF 50%, #1E63B9 100%);
@@ -12,15 +12,25 @@
     user-select: none;
 }
 
+#interval-timer {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
 #timer-title {
-    width: 100%;
+    width: 80%;
     text-align: center;
     font-size: 7.5vw;
+    padding-bottom: 5%;
 }
 
 .length {
-    width: 35vw;
-    height: 25vh;
+    width: 27.5vw;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,5 +47,5 @@
 
 .time {
     font-size: 6vw;
-    margin: 5px 15px;
+    margin: 0px;
 }

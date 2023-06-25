@@ -6,29 +6,25 @@
     -webkit-box-shadow: 8px 2px 10px 10px rgba(0, 0, 0, 0.7);
     box-shadow: 8px 2px 15px 10px rgba(0, 0, 0, 0.7);
     border-radius: 25px;
-    width: 80%;
+    width: 85%;
     height: 10vw;
-    padding-right: 1.5%;
     margin: 0% 0% 0% 0%;
+    padding: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-
 }
 
 .link {
     width: 15%;
     height: 63%;
-    margin: 0% 5%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 a {
-    display: inline-block;
     width: 100%;
-    text-align: center;
 }
 
 #linkedIn a {

@@ -46,55 +46,57 @@ export default function IntervalTimer() {
   };
 
   return (
-    <div id='interval-timer' >
-      <h1 id='timer-title' >Interval Timer</h1>
-      <div id="break-label" class='length' >
-        <h3 class='title' >Break Length</h3>
-        <button 
-          id="break-decrement"
-          class="button"
-          onClick={() => onClick("down", setBreakTime, breakTime)}>
-          <FontAwesomeIcon icon={faArrowDown} />
-        </button>
-        <p class='time' >{breakTime}</p>  
-        <button 
-          id="break-increment"
-          class="button"
-          onClick={() => onClick("up", setBreakTime, breakTime)}>
-          <FontAwesomeIcon icon={faArrowUp} />
-        </button>
-      </div>
-      <Timer 
-        sessionTime={sessionTime}
-        setSessionTime={setSessionTime}
-        breakTime={breakTime}
-        setBreakTime={setBreakTime}
-        changeable={changeable}
-        setChangeable={setChangeable}
-        timer={timer}
-        setTimer={setTimer}
-        minutes={minutes}
-        seconds={seconds}
-        handleTime={handleTime}
-        switchTimer={switchTimer}
-        setSwitchTimer={setSwitchTimer}
-        alarm={alarm}
-      />
-      <div id="session-label" class='length'>
-        <h3 class='title' >Session Length</h3>
-        <button 
-          id="session-decrement"
-          class="button"
-          onClick={() => onClick("down", setSessionTime, sessionTime)}>
-          <FontAwesomeIcon icon={faArrowDown} />
-        </button>
-        <p class='time' >{sessionTime}</p>
-        <button 
-          id="session-increment"
-          class="button"
-          onClick={() => onClick("up", setSessionTime, sessionTime)}>
-          <FontAwesomeIcon icon={faArrowUp} />
-        </button>
+    <div id='interval-timer-container' >
+      <div id='interval-timer' >
+        <h1 id='timer-title' >Interval Timer</h1>
+        <div id="break-label" class='length' >
+          <h3 class='title' >Break Length</h3>
+          <button 
+            id="break-decrement"
+            class="button"
+            onClick={() => onClick("down", setBreakTime, breakTime)}>
+            <FontAwesomeIcon icon={faArrowDown} />
+          </button>
+          <p class='time' >{breakTime}</p>  
+          <button 
+            id="break-increment"
+            class="button"
+            onClick={() => onClick("up", setBreakTime, breakTime)}>
+            <FontAwesomeIcon icon={faArrowUp} />
+          </button>
+        </div>
+        <Timer 
+          sessionTime={sessionTime}
+          setSessionTime={setSessionTime}
+          breakTime={breakTime}
+          setBreakTime={setBreakTime}
+          changeable={changeable}
+          setChangeable={setChangeable}
+          timer={timer}
+          setTimer={setTimer}
+          minutes={minutes}
+          seconds={seconds}
+          handleTime={handleTime}
+          switchTimer={switchTimer}
+          setSwitchTimer={setSwitchTimer}
+          alarm={alarm}
+        />
+        <div id="session-label" class='length'>
+          <h3 class='title' >Session Length</h3>
+          <button 
+            id="session-decrement"
+            class="button"
+            onClick={() => onClick("down", setSessionTime, sessionTime)}>
+            <FontAwesomeIcon icon={faArrowDown} />
+          </button>
+          <p class='time' >{sessionTime}</p>
+          <button 
+            id="session-increment"
+            class="button"
+            onClick={() => onClick("up", setSessionTime, sessionTime)}>
+            <FontAwesomeIcon icon={faArrowUp} />
+          </button>
+        </div>
       </div>
     </div>
   );
