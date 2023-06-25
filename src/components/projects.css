@@ -1,0 +1,15 @@
+.project {
+    width: 35%;
+    border: 0px transparent;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border: 0px transparent;
+    border-radius: 15px;
+}
+
+.project:hover {
+    width: 40%;
+}

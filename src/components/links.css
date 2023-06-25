@@ -1,0 +1,64 @@
+#links {
+    background: #7F7F7F;
+    background: -moz-radial-gradient(center, #7F7F7F 0%, #C6C6C6 66%, #EFEFEF 100%);
+    background: -webkit-radial-gradient(center, #7F7F7F 0%, #C6C6C6 66%, #EFEFEF 100%);
+    background: radial-gradient(ellipse at center, #7F7F7F 0%, #C6C6C6 66%, #EFEFEF 100%);
+    -webkit-box-shadow: 8px 2px 10px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 2px 15px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    width: 80%;
+    height: 10vw;
+    padding-right: 1.5%;
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link {
+    width: 15%;
+    height: 63%;
+    margin: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#linkedIn a {
+    color: #0072b1;
+}
+
+#github a {
+    color: #171515;
+}
+
+#twitter a {
+    color: #00acee;
+}
+
+#email a {
+    color: #BB001B;
+}
+
+.link:hover {
+    width: 20%;
+    height: 11%;
+}
+
+a svg {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1250px) {
+    #links {
+        height: 125px;
+    }
+}
