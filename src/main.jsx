@@ -6,7 +6,6 @@ import Root from './routes/root';
 import ErrorPage from './error-page';
 import QuoteGenerator from './routes/quote-generator';
 import IntervalTimer from './routes/interval-timer';
-// import ResumePage from './routes/resume-page';
 
 const router = createBrowserRouter([
   {
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
     path: '/interval-timer',
     element: <IntervalTimer />,
   },
-  // {
-  //   path: '/resume',
-  //   element: <ResumePage />
-  // }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
