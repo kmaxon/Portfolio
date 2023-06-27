@@ -28,3 +28,6 @@
 6. Certifications  *** holding off until i get real certifications ***
     * basically a rinse and repeat of the last two components
 
+
+additional features:
+- back button for the quote generator & interval timer

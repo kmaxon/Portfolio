@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import "./interval-timer.css";
-import Timer from "./interval-timer-components/timer.jsx";
-import alarmSound from "./interval-timer-components/alarm.wav";
+import "../components/interval-timer.css";
+import Timer from "../components/interval-timer-components/timer.jsx";
+import alarmSound from "../components/interval-timer-components/alarm.wav";
 
 
 export default function IntervalTimer() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import quotesjson from "./quote-generator-components/quotes.json";
+import quotesjson from "../components/quote-generator-components/quotes.json";
 import { FaTwitter } from 'react-icons/fa';
-import './quotes-generator.css';
+import '../components/quotes-generator.css';
 
 
 export default function QuoteGenerator() {
@@ -17,7 +17,7 @@ export default function QuoteGenerator() {
 
   function GetRandomQuote() {
     let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    let quoteAndAuthor = [randomQuote.title, randomQuote.author]
+    let quoteAndAuthor = [randomQuote.title, randomQuote.author];
     return ({
       currentQuote: quoteAndAuthor[0], 
       currentAuthor: quoteAndAuthor[1]
@@ -27,7 +27,7 @@ export default function QuoteGenerator() {
   const [quoteObj, setQuoteObj] = React.useState(GetRandomQuote());
 
   function GetColor() {
-    return (colors[Math.floor(Math.random() * colors.length)])
+    return (colors[Math.floor(Math.random() * colors.length)]);
   };
 
   const [color, setColor] = React.useState(GetColor());

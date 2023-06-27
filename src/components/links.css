@@ -6,7 +6,7 @@
     -webkit-box-shadow: 8px 2px 10px 10px rgba(0, 0, 0, 0.7);
     box-shadow: 8px 2px 15px 10px rgba(0, 0, 0, 0.7);
     border-radius: 25px;
-    width: 85%;
+    width: 80%;
     height: 10vw;
     margin: 0% 0% 0% 0%;
     padding: 0%;
@@ -54,7 +54,13 @@ a svg {
 }
 
 @media (min-width: 1250px) {
+   #links {
+    width: 490px;
+   }
+}
+
+@media (min-width: 1050px) {
     #links {
-        height: 125px;
+        height: 105px;
     }
 }

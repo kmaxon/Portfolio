@@ -1,0 +1,17 @@
+#resume {
+    width: 75%;
+}
+
+#resume:hover {
+    width: 80%;
+}
+
+@media (max-width: 750px) {
+    #resume {
+        width: 50%;
+    }
+
+    #resume:hover {
+        width: 55%;
+    }
+}

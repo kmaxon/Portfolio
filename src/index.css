@@ -5,8 +5,9 @@ body,
     background: -moz-linear-gradient(45deg, #161616 0%, #7F7F7F 41%, #AFAFAF 100%);
     background: -webkit-linear-gradient(45deg, #161616 0%, #7F7F7F 41%, #AFAFAF 100%);
     background: linear-gradient(45deg, #161616 0%, #7F7F7F 41%, #AFAFAF 100%);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  min-height: 900px;
+  width: 100%;
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -24,17 +25,38 @@ body,
   box-shadow: 8px 2px 15px 10px rgba(0, 0, 0, 0.7);
   border-radius: 25px;
   list-style-type: none;
-  width: 48%;
-  height: 35%;
+  width: 44%;
+  height: auto;
+  padding: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
+.container-title {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  cursor: default;
+}
+
 @media (max-width: 750px) {
   .container-style {
     width: 90%;
-    height: 30%;
+    height: auto;
+  }
+}
+
+@media (max-height: 800px) {
+  html,
+  body,
+  #root {
+    height: 800px;
   }
 }
