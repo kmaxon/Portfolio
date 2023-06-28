@@ -8,7 +8,7 @@ export default function AboutMe() {
             <p id='about-me-title' className='container-title'>About Me:</p>
             <p className='about-me-text'>
                 In 2022, I made a bold decision to leave my job and fully dedicate myself 
-                to a career in coding. I initially explored Python, while also venturing 
+                to a career in coding. I initially explored Python, while eventually venturing 
                 into the world of front-end development to broaden my skill set. 
             </p>
             <p className='about-me-text'>
