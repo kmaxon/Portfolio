@@ -5,7 +5,7 @@ import './about-me.css'
 export default function AboutMe() {
     return (
         <div id='about-me' className='container-style'>
-            <p id='about-me-title' className='container-title'>About Me:</p>
+            <p id='about-me-title' className='container-title'>About Me</p>
             <p className='about-me-text'>
                 In 2022, I made a bold decision to leave my job and fully dedicate myself 
                 to a career in coding. I initially explored Python, while eventually venturing 

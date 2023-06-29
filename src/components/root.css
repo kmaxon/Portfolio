@@ -94,4 +94,8 @@ h3 {
     #header {
         height: 154px;
     }
+
+    h1 {
+        font-size: 6.25vw;
+    }
 }
