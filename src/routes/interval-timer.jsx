@@ -49,18 +49,18 @@ export default function IntervalTimer() {
     <div id='interval-timer-container' >
       <div id='interval-timer' >
         <h1 id='timer-title' >Interval Timer</h1>
-        <div id="break-label" class='length' >
-          <h3 class='title' >Break Length</h3>
+        <div id="break-label" className='length' >
+          <h3 className='title' >Break Length</h3>
           <button 
             id="break-decrement"
-            class="button"
+            className="button"
             onClick={() => onClick("down", setBreakTime, breakTime)}>
             <FontAwesomeIcon icon={faArrowDown} />
           </button>
-          <p class='time' >{breakTime}</p>  
+          <p className='time' >{breakTime}</p>  
           <button 
             id="break-increment"
-            class="button"
+            className="button"
             onClick={() => onClick("up", setBreakTime, breakTime)}>
             <FontAwesomeIcon icon={faArrowUp} />
           </button>
@@ -81,18 +81,18 @@ export default function IntervalTimer() {
           setSwitchTimer={setSwitchTimer}
           alarm={alarm}
         />
-        <div id="session-label" class='length'>
-          <h3 class='title' >Session Length</h3>
+        <div id="session-label" className='length'>
+          <h3 className='title' >Session Length</h3>
           <button 
             id="session-decrement"
-            class="button"
+            className="button"
             onClick={() => onClick("down", setSessionTime, sessionTime)}>
             <FontAwesomeIcon icon={faArrowDown} />
           </button>
-          <p class='time' >{sessionTime}</p>
+          <p className='time' >{sessionTime}</p>
           <button 
             id="session-increment"
-            class="button"
+            className="button"
             onClick={() => onClick("up", setSessionTime, sessionTime)}>
             <FontAwesomeIcon icon={faArrowUp} />
           </button>
