@@ -7,7 +7,7 @@ export default function Resume() {
         <div id='resume-container' className='container-style'>
             <p className='container-title'>Resume</p>
             <div id='resume'>
-                <a href={'/resume.PDF'} target='_blank' rel='noreferrer'>
+                <a href={'./resume.PDF'} target='_blank' rel='noreferrer'>
                     <img src='https://keith-maxon.com/preview-resume.PNG' alt='resume' />
                 </a>
             </div>
